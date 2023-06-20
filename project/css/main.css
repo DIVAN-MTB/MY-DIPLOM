@@ -1769,3 +1769,22 @@ img {
   }
 
 /* popup end */
+
+.conf {
+  margin: 50px;
+  flex-grow: 1;
+  color: #000000;
+  font-weight: 900;
+}
+
+.conf__h1{
+  margin: 50px;
+  flex-grow: 1;
+  color: #000000;
+  font-weight: 900;
+}
+
+.policy{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

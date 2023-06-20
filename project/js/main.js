@@ -367,3 +367,18 @@
   })();
 
     /* form end */
+
+    var privacyCheckbox = document.getElementById("privacyCheckbox");
+  var submitButton = document.getElementById("submitButton");
+
+  privacyCheckbox.addEventListener("change", function() {
+    if (privacyCheckbox.checked) {
+      // Если чекбокс отмечен, активировать кнопку
+      submitButton.disabled = false;
+      console.log("Пользователь принял условия конфиденциальности");
+    } else {
+      // Если чекбокс не отмечен, деактивировать кнопку
+      submitButton.disabled = true;
+      console.log("Пользователь не принял условия конфиденциальности");
+    }
+  });
